@@ -195,7 +195,7 @@ overflow-y: auto;
    margin-left: 20px;
 }
 
-.text-lift{margin-left: 30px !important;}
+.text-lift{margin-left: 30px;}
 
 ._text{margin-left: -45px;}
 
@@ -932,3 +932,298 @@ z-index: -1;
 }
 
   }
+
+
+
+
+
+  /*---------Slider 2-------------*/
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+.image3 {
+    position: absolute;
+    top: 10px;
+    left: -45px;
+    width: 40%;
+    height: 140px;
+}
+
+
+.image4 {
+    position: absolute;
+    top: 115px;
+    left: -40px;
+    width: 190px;
+    height: 140px;
+}
+
+.image5 {
+    position: absolute;
+    top: 40px;
+    left: 125px;
+    width: 190px;
+    height: 140px;
+}
+
+.image6 {
+    position: absolute;
+    top: 185px;
+    left: 100px;
+    width: 190px;
+    height: 140px;
+}
+
+.image8 {
+    position: absolute;
+    top: 306px;
+    left: 160px;
+    width: 180px;
+    height: 140px;
+}
+
+.image9 {
+    position: absolute;
+    top: 260px;
+    right: 120px;
+    width: 250px;
+    height: 140px;
+}
+
+.image10 {
+    position: absolute;
+    top: 400px;
+    left: 10%;
+    width: 300px;
+    height: 380px;
+}
+
+._margin {margin-bottom: 10px;}
+}
+
+.apple{width: 185px;}
+
+
+@media screen and (min-width: 501px) and (max-width: 650px) {
+
+}
+
+
+@media screen and (min-width: 651px) and (max-width: 800px) {
+
+
+
+}
+
+
+  @media screen and (min-width: 801px) and (max-width: 990px) {
+
+       
+      
+
+  }
+
+  @media screen and (min-width: 901px) and (max-width: 991px) {
+
+       
+  }
+
+
+   @media screen and (min-width: 992px) and (max-width: 1100px) {
+
+      
+  }
+
+
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+
+
+  }
+
+
+
+
+
+  /*---------Slider 3-------------*/
+
+@media screen and (min-width: 320px) and (max-width: 500px) {
+
+
+.__testimon{margin-bottom: 20%;}
+
+.test_1{margin-top: -15%;margin-left: -50%;}
+._text{    margin-top: -32%;margin-left: 40%;width: 100%}
+._p-tes-left{margin-left: 90px;}
+.test_2{margin-left: -95px}
+._text_ {margin-left: 95px;}
+._t_{margin-top: -25%;z-index: 1;color: white;}
+.text-lift {margin-left: 10%;width: 100%;}
+
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+
+._P_{}
+  .testy_names {
+    margin-top: -20%;
+    margin-left: 60%;
+}
+
+  ._text {
+    margin-left: -28% !important;
+}
+
+
+.testimonials-1 {
+    position: absolute;
+    top: 10px;
+    left: 26%;
+    width: 300px;
+}
+
+.testimonials_1 {
+    position: absolute;
+    top: 200px;
+    left: 8%;
+}
+
+.testimonials {
+    width: 300px;
+    margin-left: 19%;
+}
+
+
+  }
+
+
+@media screen and (min-width: 501px) and (max-width: 533px) {
+.testimonials-1 {
+    position: absolute;
+    top: 10px;
+    left: 28%;
+    width: 300px;
+}
+
+.testimonials_1 {
+    position: absolute;
+    top: 20px;
+    left: -40%;
+}
+._text {
+    margin-left: -1px;
+}
+.testimonials {
+    width: 300px;
+    margin-left: 14%;
+}
+
+
+  }
+
+@media screen and (min-width: 534px) and (max-width: 599px) {
+.testimonials-1 {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    width: 300px;
+}
+
+.testimonials_1 {
+    position: absolute;
+    top: 20px;
+    left: -45%;
+}
+._text {
+    margin-left: 0px;
+}
+.testimonials {
+    width: 300px;
+    margin-left: 14%;
+}
+
+  }
+
+
+@media screen and (min-width: 600px) and (max-width: 650px) {
+.testimonials-1 {
+    position: absolute;
+    top: 10px;
+    left: 27%;
+    width: 300px;
+}
+
+.testimonials_1 {
+    position: absolute;
+    top: 20px;
+    left: -45%;
+}
+._text {
+    margin-left: 0px;
+}
+}
+
+
+@media screen and (min-width: 651px) and (max-width: 800px) {
+
+.testimonials-1 {
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    width: 300px;
+   /* padding-left: -10%;*/
+}
+
+._text {
+    margin-left: 0px;
+}
+
+.testimonials {
+    width: 300px;
+    margin-left: 13%;
+}
+
+}
+
+
+
+
+  @media screen and (min-width: 651px) and (max-width: 991px) {
+    .__testimon{margin-bottom: 5%;}
+
+.test_1{margin-top: -15%;margin-left: -50%;}
+._text{margin-top: -22%; margin-left: 40%}
+._p-tes-left{margin-left: 90px;}
+.test_2{margin-left: -95px}
+._text_ {margin-left: 95px;}
+._t_{margin-top: -25%;z-index: 1;color: white;}
+.text-lift {margin-left: 10%;width: 100%;}
+.testimonials-1 {
+    position: absolute;
+    top: 10px;
+    left: 32%;
+    width: 300px;
+}
+
+.testimonials_1 {
+    position: absolute;
+    top: 32px;
+    left: -50%;
+}
+
+.testy_names{    margin-left: -45%;
+    margin-top: 25%;
+    width: 100%;}
+       
+  }
+
+
+   @media screen and (min-width: 992px) and (max-width: 1100px) {
+._MarRight{margin-right: 5%;}
+      
+  }
+
+
+  @media screen and (min-width: 1101px) and (max-width: 1200px) {
+
+._MarRight{margin-right: 1%;}
+}
