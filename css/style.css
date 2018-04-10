@@ -26,9 +26,11 @@ body{/*background-image:url(images/teamwor);*/
 
 ._down{margin-top:20%;margin-bottom: 7%;}
 
-.footer{overflow-x: hidden;width: auto;height: 50px;border-top:2px solid white;}
-.footer-down{font-size: 14px;color: white;padding-top: 30px;}
+.footer{overflow: hidden;width: auto;height: 80px;border-top:2px solid white;}
+.footer-down{font-size: 20px !important;color: white;margin-top: 20px;}
 
+.m_social{margin-top: 20px;}
+.footer-social{border:1px solid white;color: white;padding: 5px;border-radius: 100px;width: 40px !important;height: 40px !important;}
 /* -------------------- */
 .carousel-indicators {
   position: absolute;
@@ -504,7 +506,7 @@ body{/*background-image:url(images/teamwor);*/
                     background-color: #111;
                     overflow-x: hidden;
                     overflow-y: hidden;
-                    transition: 0.5s;
+                    transition: 0.9s;
                     padding-top: 60px;
                     text-align:center;
                   }
