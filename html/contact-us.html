@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<title>Contact Us</title>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- 	<link rel="stylesheet" href="plugins/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css.map">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
+
+  <link rel="stylesheet" type="text/css" href="../css/fontawesome-all.css">
+  <script type="text/javascript" src="../js/fontawesome-all.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" href="../css/animate.css">
+  <script type="text/javascript" src="../js/wow.js"></script>
+  <script>  new WOW().init(); </script>
+</head>
+
+
+<body class="about-bg">
+
+   <nav class="navbar navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">
+          <img id="hidden" src="../images/trf logo-large2.png" >
+                 
+          </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href="#">Profile</a></li>
+        <li class="active"><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li> 
+        <li><a href="#">Selutions</a></li> 
+        <li><a href="#">Carrer</a></li> 
+
+
+         
+   
+
+
+
+           <li  class="navbar-toggle" onclick="openNav()">
+            <span class="eltdf-fullscreen-menu-opener-icon" style="color: white !important;">
+               <svg  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="22px" height="22px" viewBox="0 0 22 22" enable-background="new 0 0 22 22" xml:space="preserve">
+               <rect class="rect1" x="1.083" y="1.042" width="5" height="5"></rect>
+               <rect class="rect2" x="8.614" y="1.042" width="5" height="5"></rect>
+               <rect class="rect3" x="16.051" y="1.042" width="5" height="5"></rect>
+               <rect class="rect4" x="1.083" y="8.521" width="5" height="5"></rect>
+               <rect class="rect5" x="8.614" y="8.521" width="5" height="5"></rect>
+               <rect class="rect6" x="16.051" y="8.521" width="5" height="5"></rect>
+               <rect class="rect7" x="1.083" y="16.083" width="5" height="5"></rect>
+               <rect class="rect8" x="8.614" y="16.083" width="5" height="5"></rect>
+               <rect class="rect9" x="16.051" y="16.083" width="5" height="5"></rect>
+               </svg>             
+             </span>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container">
+	
+
+<div class="map">
+  <div id="map"></div>
+  <div class="map-c">
+    <h1>Contact us</h1>
+    <p>We'd love to hear from you!.</p>
+    <div class="det"><i class="fa fa-map-marker"></i> Saudi Aabia-Jeddah</div>
+    <div class="det"><i class="fa fa-phone"></i> +966598637182</div>
+    <div class="det"><i class="fa fa-map-marker"></i> Egypt-Giza</div>
+    <div class="det"><i class="fa fa-phone"></i> +2 0101 275 8167</div>
+    <div class="det"><i class="fa fa-globe"></i> www.trf.com</div>
+   
+
+
+    <div id='right'>
+      
+      <form >
+        <input class="form-group" placeholder='Email' type='email'>
+        <input class="form-group" placeholder='Phone' type='number'>
+
+         <input class="form-group" placeholder='Subject' type='text'>
+        <textarea class="form-group" placeholder='Message' rows='4'></textarea><br>
+        <input class="form-group" placeholder='Send' type='submit'>
+      </form>
+    </div>
+
+      
+    
+  </div>
+</div>
+
+<style>
+ 
+</style>
+
+<script>
+
+
+ function initMap() {
+     var uluru = {lat: -25.363, lng: 131.044};
+                     
+                      var map = new google.maps.Map(document.getElementById('map'), {zoom: 4,center: uluru});
+
+                     
+                      var marker = new google.maps.Marker({position: uluru,map: map});
+
+  }
+
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAN7k2kUohvfrQ7by44cYJw_J_gJU2-V4o&callback=initMap"></script>
+
+</div>
+
+
+</body>
+</html>
